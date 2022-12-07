@@ -1,0 +1,38 @@
+/* textarea */
+.textInput {
+  background-color: #f4f1ec;
+  width: 100%;
+  border: 0;
+  border-bottom: 4px solid #000000;
+  outline: 0;
+}
+
+/* div: button + counter */
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Tweet button input */
+.buttonTweet {
+  font-family: Bungee, sans-serif;
+  background-color: #4056A1;
+  color: #FFFFFF;
+}
+
+/* character counter for tweet */
+.counter {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/*  */
+.new-tweet form {
+  width: 100%;
+}
+
+/* warning if count < 0 */
+.warning {
+  color: red;
+}

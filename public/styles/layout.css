@@ -3,6 +3,8 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+
+ 
 html {
   box-sizing: border-box;
 }
@@ -15,11 +17,44 @@ html {
  */
 
 body {
+  font-family: 'Source Sans Pro', sans-serif;
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
 }
 
+main {
+  width: 85%;
+  background-color: #f4f1ec;
+  margin: auto;
+}
+
+
+/* .red {
+  display: felx;
+  flex-direction: column;
+}
+
+.first-purple {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.second-purple {
+  display: flex;
+  flex-direction: row;
+}
+
+.green {
+  display: flex;
+  flex-direction: row;
+}
+
+.blue {
+  display: flex;
+  flex-direction: row;
+} */
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
