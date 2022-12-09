@@ -13,24 +13,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap"
-    rel="stylesheet">
+  href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap"
+  rel="stylesheet">
 
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- App CSS -->
   <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
   <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
   <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
   <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+  <link rel="stylesheet" href="/styles/tweet-container.css" type="text/css" />
 
   <!-- External JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- App JS -->
   <script type="text/javascript" src="/scripts/client.js"></script>
@@ -45,7 +45,7 @@
       <i class="fa-solid fa-angles-down a1"></i>
     </span>
   </nav>
-
+  <!-- user avatar and name -->
   <header class="loggedIn">
     <div>
       <img src="/images/profile-hex.png">
@@ -57,39 +57,22 @@
   </header>
   <!-- Page-specific (main) content here -->
   <main class="container">
-
+    <!-- error message -->
+    <div class="alert-container">
+      <span class="alert-message"></span>
+    </div>
+    <!-- new tweet posting -->
     <section class="new-tweet">
-      <!-- <h2>Compose Tweet</h2> -->
-      <form action="POST" method="/tweets">
+      <form class="form-container">
         <textarea class="textInput" placeholder="What are you humming about?"></textarea>
 
         <button type="submit" name="buttonTweet" class="buttonTweet">Tweet</button>
+
         <output name="counter" class="counter" for="tweet-text">140</output>
       </form>
     </section>
-
-    <section class="tweet-container">
-      <article>
-        <!-- profile icon + name -->
-        <!-- @ID(right) -->
-        <header>
-          Hello world;
-          <!-- underline -->
-          <!-- posted date(left) -->
-          <!-- icons(right) -->
-          <!--  -->
-        </header>
-        
-        <footer>
-
-        </footer>
-      </article>
-    </section>>
-
-
-
-
-    </section>
+    <!-- Existing tweets -->
+    <section class="tweet-container"></section>
   </main>
 </body>
 

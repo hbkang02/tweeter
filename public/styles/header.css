@@ -2,8 +2,9 @@
   margin-top: 120px;
   height: 400px;
   width: 100%;
-  background-color: #00a5c2;
-  background-image: url(http://www.transparenttextures.com);
+  background-color: #7245ed;
+  background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
+  color:bisque;
   display: flex;
   flex-direction: column;
   align-items: center;

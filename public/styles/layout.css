@@ -4,11 +4,14 @@
  * Do not modify these two selectors, please
  */
 
- 
+
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -18,43 +21,46 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #545149;
-  background-color: #f4f1ec;
+  background-color: antiquewhite;
+  background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
   font-size: 24px;
 }
 
 main {
-  width: 85%;
-  background-color: #f4f1ec;
+  width: 90%;
+  background-color: antiquewhite;
+  background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
   margin: auto;
 }
 
+/* desktop with over 1024px */
+@media only screen and (min-width: 1024px) {
 
-/* .red {
-  display: felx;
-  flex-direction: column;
+  body {
+    margin-top: 5em;
+  }
+  body .loggedIn {
+    float: left;
+    width: 28%;
+    margin: 10vh 6% 0;
+    float: left;
+  }
+
+  body .container {
+    width: 50%;
+    margin: 9vh 5vh 0 0;
+    float: right;
+  }
+
+  .form-container {
+    margin: 0 0 60px;
+  }
+
+  .tweet {
+    margin-top: 0;
+  }
 }
 
-.first-purple {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.second-purple {
-  display: flex;
-  flex-direction: row;
-}
-
-.green {
-  display: flex;
-  flex-direction: row;
-}
-
-.blue {
-  display: flex;
-  flex-direction: row;
-} */
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
