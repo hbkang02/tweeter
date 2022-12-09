@@ -16,3 +16,17 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+- Chance 1.0.2
+- body-parse 1.15.2
+- md5 2.1.0
+- nodemon 1.9.2
+
+#What is the purpose of the Tweeter?
+
+1. Post messages on Tweeter!
+2. It will create post with when it was posted.
+3. Responsive design that supports mobile and desktop!
+
+#Final Product
+![Screenshot]([screenshot.png](https://github.com/hbkang02/tweeter/blob/master/Screenshot/Screenshot%202022-12-08%20at%2010.51.02%20PM.png))
+![Screenshot]([screenshot.png](https://github.com/hbkang02/tweeter/blob/master/Screenshot/Screenshot%202022-12-08%20at%2010.51.19%20PM.png))
