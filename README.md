@@ -28,5 +28,5 @@ This repository is the starter code for the project: Students will fork and clon
 3. Responsive design that supports mobile and desktop!
 
 #Final Product
-![Screenshot]([screenshot.png](https://github.com/hbkang02/tweeter/blob/master/Screenshot/Screenshot%202022-12-08%20at%2010.51.02%20PM.png))
-![Screenshot]([screenshot.png](https://github.com/hbkang02/tweeter/blob/master/Screenshot/Screenshot%202022-12-08%20at%2010.51.19%20PM.png))
+![Screenshot]((https://github.com/hbkang02/tweeter/blob/master/Screenshot/Screenshot%202022-12-08%20at%2010.51.02%20PM.png))
+![Screenshot]((https://github.com/hbkang02/tweeter/blob/master/Screenshot/Screenshot%202022-12-08%20at%2010.51.19%20PM.png))
